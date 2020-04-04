@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 7px;
+}
+
+.hidden{
+    display: none;
+}
+
+.not_hidden{
+    display: flex;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    border : 1px solid rgb(161, 175, 212);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 10px solid rgb(114, 137, 199);
+
+}
+
